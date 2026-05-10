@@ -30,7 +30,12 @@ public class Main {
     public static void main(String[] args) {
   for (int i = 1 ;i < 130; i++) {
             int a = 340 + i;
-             page("https://weixin60536.video-rays.com/audio/W50536/C1000139/A1545" + a + "/audio/home?adviserId=1000010836&sceneId=3288328&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=2222222222f&date=2026-05-05&topsize=1&bookId=4908958&timestamp=1778386602458\n");
+       String b= Integer.toString(a);
+            //b=b.length()<2?"0"+b:b;
+            while (b.length()<3){
+                b="0"+b;
+            }
+             page("https://weixin60536.video-rays.com/audio/W50536/C1000139/A1545" + b + "/audio/home?adviserId=1000010836&sceneId=3288328&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=2222222222f&date=2026-05-05&topsize=1&bookId=4908958&timestamp=1778386602458\n");
 
         }
 
