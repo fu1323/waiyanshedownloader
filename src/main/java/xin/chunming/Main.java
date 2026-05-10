@@ -28,15 +28,9 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
-//d=3288355&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=5a3ab23b11173f4034c7ea30e36a129f&date=2026-05-05&topsize=1&bookId=4908958&timestamp=1778386602458
-        // https://weixin60536.video-rays.com/audio/W50536/C1000139/A1665168/audio/play?adviserId=1000010836&sceneId=3288490&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=5a3ab23b11173f4034c7ea30e36a129f&date=2026-05-03&topsize=1&bookId=4908958&timestamp=1778383421200
-        //https://weixin60536.video-rays.com/audio/W50536/C1000139/A1545395/audio/home?adviserId=1000010836&sceneId=3288134&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=5a3ab23b11173f4034c7ea30e36a129f&date=2026-05-05&topsize=1&bookId=4908958&timestamp=1778386474412
-        //https://weixin60536.video-rays.com/audio/W50536/C1000139/A1545469/audio/home?adviserId=1000010836&sceneId=3288328&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=5a3ab23b11173f4034c7ea30e36a129f&date=2026-05-05&topsize=1&bookId=4908958&timestamp=1778386602458
-//https://weixin60536.video-rays.com/audio/W50536/C1000139/A1545392/audio/home?adviserId=1000010836&sceneId=3288355&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=5a3ab23b11173f4034c7ea30e36a129f&date=2026-05-05&topsize=1&bookId=4908958&timestamp=1778386602458
-        for (int i = 1 ;i < 130; i++) {
+  for (int i = 1 ;i < 130; i++) {
             int a = 340 + i;
-            //page("https://weixin60536.video-rays.com/audio/W50536/C1000139/A1661" + a + "/audio/home?adviserId=1000010836&sceneId=3288328&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=5a3ab23b11173f4034c7ea30e36a129f&date=2026-05-05&topsize=1&bookId=4908958&timestamp=1778386602458\n");
-            page("https://weixin60536.video-rays.com/audio/W50536/C1000139/A1545" + a + "/audio/home?adviserId=1000010836&sceneId=3288328&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=5a3ab23b11173f4034c7ea30e36a129f&date=2026-05-05&topsize=1&bookId=4908958&timestamp=1778386602458\n");
+             page("https://weixin60536.video-rays.com/audio/W50536/C1000139/A1545" + a + "/audio/home?adviserId=1000010836&sceneId=3288328&isPreview=1&source_type=QRCODE&appType=AUDIO&userCode=2222222222f&date=2026-05-05&topsize=1&bookId=4908958&timestamp=1778386602458\n");
 
         }
 
